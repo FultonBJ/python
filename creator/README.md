@@ -2,9 +2,13 @@ creator is a virtual environment from bash loadable from VS code
 for -help in creator, /creator/bin]$ open activate, activate.csh, activate.fish
 <!--- BASH STEPS
 Open terminal and cd
-[~/Users/"me"/pythonWS/creator/bin]
-[~/Users/"me"/pythonWS/creator/bin] source/bin/activate
-SHOULD RESULT IN.........(creator) (base) [/users/"me"/pythonWS/creator]$
+[~/Users/"me"/pythonWS/creator]
+[~/Users/"me"/pythonWS/creator] source bin/activate
+SHOULD RESULT IN.........
+(creator) (base) [/users/"me"/pythonWS/creator]$
+# you are now in a python environment
+
+#to install a python module,....
 (creator) (base) [/users/"me"/pythonWS/creator]$ pip install -m "name of python module"
 
 
