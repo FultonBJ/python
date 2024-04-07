@@ -1,0 +1,4 @@
+Good Day to you!
+     This is an automated form letter for you from me!
+Best wishes!
+     PyJunkMailler
